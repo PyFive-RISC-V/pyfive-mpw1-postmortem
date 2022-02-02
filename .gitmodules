@@ -1,0 +1,6 @@
+[submodule "icebreaker/build"]
+	path = icebreaker/build
+	url = https://github.com/no2fpga/no2build.git
+[submodule "icebreaker/cores/no2misc"]
+	path = icebreaker/cores/no2misc
+	url = https://github.com/no2fpga/no2misc.git

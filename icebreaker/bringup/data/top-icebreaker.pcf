@@ -1,0 +1,40 @@
+# Clock
+set_io --warn-no-port clk_in 35
+
+# UART
+set_io --warn-no-port uart_rx 6
+set_io --warn-no-port uart_tx 9
+
+# Leds
+set_io --warn-no-port rgb[0] 39
+set_io --warn-no-port rgb[1] 40
+set_io --warn-no-port rgb[2] 41
+
+# IF
+set_io --warn-no-port dut_vdd		43 # J9  11 - PMOD1B.1
+set_io --warn-no-port dut_vdd1		44 # J10  6 - PMOD1A.10
+set_io --warn-no-port dut_vdd2		45 # J10  5 - PMOD1A.4
+set_io --warn-no-port dut_gpio		42 # J9  12 - PMOD1B.7
+set_io --warn-no-port dut_spi_mosi	34 # J9   7 - PMOD1B.3
+set_io --warn-no-port dut_xclk 		31 # J9   5 - PMOD1B.4
+set_io --warn-no-port dut_spi_clk	38 # J9   9 - PMOD1B.2
+set_io --warn-no-port dut_spi_miso	36 # J9  10 - PMOD1B.8
+set_io --warn-no-port dut_spi_cs_n	32 # J9   8 - PMOD1B.9
+set_io --warn-no-port dut_rst_n		28 # J9   6 - PMOD1B.10
+set_io --warn-no-port dut_usr[0]	46 # J10  8 - PMOD1A.9
+set_io --warn-no-port dut_usr[1]	47 # J10  7 - PMOD1A.3
+set_io --warn-no-port dut_usr[2]	48 # J10 10 - PMOD1A.8
+set_io --warn-no-port dut_usr[3]	 2 # J10  9 - PMOD1A.2
+set_io --warn-no-port dut_usr[4]	 3 # J10 12 - PMOD1A.7
+set_io --warn-no-port dut_usr[5]	 4 # J10 11 - PMOD1A.1
+
+# PMOD
+set_io pmod[0] 27 # PMOD2.1
+set_io pmod[1] 25 # PMOD2.2
+set_io pmod[2] 21 # PMOD2.3
+set_io pmod[3] 19 # PMOD2.4
+set_io pmod[4] 26 # PMOD2.7
+set_io pmod[5] 23 # PMOD2.8
+set_io pmod[6] 20 # PMOD2.9
+set_io pmod[7] 18 # PMOD2.10
+
